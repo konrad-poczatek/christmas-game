@@ -1,5 +1,7 @@
-"Sander": {
-  1: {
-    score: 103ms
-  }
+{
+  "Sander": {
+    1: {
+      score: 103ms
+    }
+  } 
 }
