@@ -4,7 +4,7 @@ class Program {
             '[' -> brackets.split("[", "]")
             '{' -> brackets.split("{", "}")
             '(' -> brackets.split("(", ")")
-            else -> listOf("", "", "")
+            else -> listOf("false", "false", "false")
         }
 
         return if (check.last().isEmpty() && check[1].isNotEmpty()) {
