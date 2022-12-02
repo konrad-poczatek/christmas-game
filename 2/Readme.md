@@ -28,3 +28,8 @@ Return true;
 String = "[{))}"
 Return false;
 ```
+
+```
+String = "([)]"
+Return false; because brackets are not properly closed (like in Java)
+```
