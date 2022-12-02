@@ -28,11 +28,3 @@ Return true;
 String = "[{))}"
 Return false;
 ```
-<<<<<<< HEAD
-
-```
-String = "([)]"
-Return false; because brackets are not properly closed (like in Java)
-```
-=======
->>>>>>> eb87125 (2nd problem)
