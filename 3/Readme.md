@@ -13,6 +13,7 @@ Result: "" -> empty string because they dont have shared prefix
 ```
 
 **Assumptions**
-gift contains only lowercase latin letter
-gift has no more letters than 200
-list of gifts contains min 1 gift and maximum 200 gifts
+
+* gift contains only lowercase latin letter
+* gift has no more letters than 200
+* list of gifts contains min 1 gift and maximum 200 gifts
