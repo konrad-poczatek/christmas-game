@@ -1,9 +1,6 @@
-import java.util.*;
-import java.util.stream.Collectors;
-
 class SharedPrefix {
-    public String biggestSharedPrefix(String[] gifts) {
-        Map<String, Integer> words = new HashMap<>();
+  public String biggestSharedPrefix(String[] gifts) {
+    Map<String, Integer> words = new HashMap<>();
         int j=0;
         while (j< gifts.length) {
             int i = 0;
@@ -25,6 +22,5 @@ class SharedPrefix {
                 .filter(stringIntegerEntry -> !stringIntegerEntry.getKey().isBlank() && stringIntegerEntry.getKey().length() != 1)
                 .collect(Collectors.toUnmodifiableList());
         return collect.get(0).getKey();
-    }
-
+  }
 }
