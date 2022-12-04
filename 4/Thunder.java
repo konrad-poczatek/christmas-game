@@ -1,5 +1,5 @@
 class Thunder {
-    public String solve(String phrase, int height) {
+    public static String solve(String phrase, int height) {
         if (phrase.length() == 0 || height == 0) {
             return "";
         }
@@ -23,8 +23,8 @@ class Thunder {
                 } else if (j == (height - 1) * groupCounter && (height + height - 2) * groupCounter + i < phrase.length()) {
                     thunderString.append(chars[(height + height - 2) * groupCounter + i]);
                     groupCounter++;
-                } else if (i != 0 && i != height - 1 && (i + k == height)) {
-                    thunderString.append("1");
+                } else if (i != 0 && i != height - 1 && (i + k == height) && (groupCounter * (2 * (height) - 2) - (i - 2) - 2 < phrase.length())) {
+                    thunderString.append(chars[groupCounter * (2 * (height) - 2) - (i - 2) - 2]);
                 } else {
                     thunderString.append(" ");
                 }
