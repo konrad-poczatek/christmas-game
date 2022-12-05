@@ -2,7 +2,7 @@ Santa prepared some money gifts to people from Ancient Rome Empire. But because,
 
 The goal is to convert Roman numbers to Arabic numbers.
 
-Roman numbers have symbols: I, V, X, L, C, D and M.
+Roman numbers have symbols: `I`, `V`, `X`, `L`, `C`, `D` and `M`.
 ```
 Symbol       Value
 I             1
@@ -52,6 +52,6 @@ result: 3 -> 1 + 1 + 1
 Start with biggest numbers
 
 **Assumptions:**
-romanNumber won't be longer than `15` and won't be shorter than `1`
-romanNumber contains only roman numbers (nothing more)
-max number would be `3999` and minimum `1`
+* romanNumber won't be longer than `15` and won't be shorter than `1`
+* romanNumber contains only roman numbers (nothing more)
+* max number would be `3999` and minimum `1`
