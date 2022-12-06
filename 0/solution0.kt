@@ -1,4 +1,4 @@
-class Solution {
+class Solution0 {
     fun twoSum(gifts: IntArray, maxCost: Int): IntArray {
         val map = hashMapOf<Int, Int>()
         gifts.forEachIndexed { index, i ->
