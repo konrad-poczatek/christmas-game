@@ -18,18 +18,23 @@ Why? F(2) = F(1) + F(0) [two preceeding results] = 1 + 0 = 1
 ```
 ```
 n = 3
-result = 1
+result = 2
 Why? F(3) = F(2) + F(1) = 1 + 1 = 2
 ```
 ```
 n = 4
-result = 1
+result = 3
 Why? F(4) = F(3) + F(2) = 2 + 1 = 3
 ```
 ```
 n = 5
-result = 1
+result = 5
 Why? F(5) = F(4) + F(3) = 3 + 2 = 5
+```
+```
+n = 6
+result = 8
+Why? F(6) = F(5) + F(4) = 5 + 3 = 8
 ```
 
 **Assumptions:**
