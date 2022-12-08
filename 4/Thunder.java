@@ -25,13 +25,10 @@ class Thunder {
                         groupCounter++;
                     } else if (i != 0 && i != height - 1 && (i + k == height) && (groupCounter * hOffset - (i - 2) - 2 < phrase.length())) {
                         thunderString.append(chars[groupCounter * hOffset - (i - 2) - 2]);
-                    } else {
-                        thunderString.append(" ");
                     }
                 }
             }
             groupCounter = 1;
-            thunderString.append("\n");
         }
         return thunderString.toString();
     }
