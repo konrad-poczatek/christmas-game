@@ -1,6 +1,6 @@
-Santa would like to calculate square root of a number, but he cannot use any build in functions or operators.
+Santa would like to calculate the square root of a number, but he cannot use any build in functions or operators.
 
-Return the square return of a number rounded down to the nearest integer. DO NOT use any builtin function (like Math.pow, Math.sqrt, sqrt). 
+Return the square root of a number rounded down to the nearest integer. DO NOT use any builtin function (like Math.pow, Math.sqrt, sqrt). 
 Returned value has to be positive.
 
 **samples**
