@@ -3,7 +3,7 @@ You receive a string, goal is to find longest substring without repeating single
 **Samples:**
 ```
 String: "qweqrtw"
-Result: 3 -> because longest one without repetition is "qwe"
+Result: 5 -> because longest one without repetition is "eqrtw"
 ```
 ```
 String: "aaaaaa"
