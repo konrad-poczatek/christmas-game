@@ -28,6 +28,6 @@ You can use this code to check whether your solution is fast and correct (tune i
 ```
 for(int i = Integer.MAX_VALUE; i >= 0; i--) {
   System.out.println(i);
-  assert ((int) Math.sqrt(i)) == findSquare(i);
+  assert ((int) Math.sqrt(i)) == findSquareRoot(i);
 }
 ```
