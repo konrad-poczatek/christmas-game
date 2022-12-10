@@ -28,6 +28,10 @@ result: "100"
 number: "-10", exp: 3
 result: "-1000"
 ```
+```
+number: "1000", exp: 10
+result: "1000000000000000000000000000000" - it's 1 + 30 zeros
+```
 
 **assumptons**
 * `-1000 <= number <= 1000`
