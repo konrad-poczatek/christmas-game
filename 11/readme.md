@@ -24,4 +24,3 @@ Output: 4
 * array length is greater or equal 1 and lower than 105
 * every integer value and target are greater or equal -104 and lower than 105
 * array contains distinct values sorted in ascending order.
-* -104 <= target <= 104
