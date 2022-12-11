@@ -4,7 +4,7 @@ class Santonacci {
             return 0;
         }
 
-        int fib = new int[n + 1];
+        int[] fib = new int[n + 1];
         fib[0] = 0;
         fib[1] = 1;
 
