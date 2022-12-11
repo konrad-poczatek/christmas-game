@@ -1,5 +1,8 @@
 class SquareRoot {
     public int findSquareRoot(int number) {
+        if(number==1){
+            return 1;
+        }
         Long leftBorder = 0L;
         Long rightBorder = (long) number;
         Long temp = (long) number;
