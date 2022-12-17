@@ -1,10 +1,12 @@
-Today you have to create regular expression matching, where for given input string and given pattern. 
+Today you have to create regular expression matching, where for given input string `str` and given pattern `pat`. 
 Your implementation of regular expression matching should support `.` and `*`.
 
 * `.` matches any single character
 * `*` matches zero or more of the preceding element. 
 
 Your matching should cover entire input.
+
+In simple words check if given pattern matches given string.
 
 **Samples:**
 ```
