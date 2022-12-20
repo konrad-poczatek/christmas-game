@@ -19,6 +19,6 @@ class MergeSortedArrays {
             numbers1[i] = numbers1[i - 1];
         }
     }
-    }
+
 
 }
