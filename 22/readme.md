@@ -16,3 +16,6 @@ return 5
 
 **Assumptions:**
 * array is constructed in such way there is always such element
+
+**Hint:**
+Find solution with O(1) time complexity
